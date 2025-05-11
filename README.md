@@ -89,6 +89,28 @@ This repository contains t an end-to-end **Data Engineering pipeline** on **Micr
 
 ---
 
+## 🟡 Gold Layer – Azure Synapse Analytics & Power BI Integration
+
+### Overview
+This layer represents the final stage of the data lakehouse architecture in my Data Engineering project using Azure Synapse Analytics. 
+It transforms and exposes curated, business-ready data to enable meaningful analysis and reporting.
+
+### 📌 Key Highlights
+
+ - ✅ Created views from transformed tables available in the Silver Layer.
+
+ - ✅ Used Azure Synapse SQL scripts to define and manage external tables in the Gold Layer.
+
+ - ✅ Leveraged external data sources to access data stored in Azure Data Lake Gen2 using Managed Identity.
+
+ - ✅ Structured the Gold Layer to support Power BI dashboards for insights and decision-making.
+
+### 🔧 Technical Stack
+
+ - *Azure Synapse Analytics (Serverless SQL Pools)*
+ - *Azure Data Lake Storage Gen2*
+ - *SQL (T-SQL scripts for views & tables)*
+ - *Power BI (Direct connection to Synapse for visualization)*
 
 
 
